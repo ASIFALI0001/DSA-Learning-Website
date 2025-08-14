@@ -1,153 +1,145 @@
-Here's a sample `README.md` file tailored to your project:
+<p align="center">
+  <h1>📚 DSA Learning Platform</h1>
+</p>
 
-```markdown
-# React Router App with Hourglass Loader
-
-This project is a React application that uses `react-router-dom` for navigation and includes a custom Hourglass Loader animation to display a loading screen during initialization or data fetching.
-
----
-
-## Features
-
-- **Routing**: Dynamic page routing with `react-router-dom`.
-- **Custom Loader**: A visually appealing hourglass loader implemented with SVG and CSS.
-- **Component-Based Architecture**: Modular components for ease of maintenance and scalability.
-- **Interactive Cursor**: Custom animated cursor for enhanced user experience.
-- **Pages**:
-  - Homepage with interactive sections
-  - Data Structures and Algorithms (DSA) pages like Stack, Queue, Linear Search, Binary Search, etc.
-  - AI and Contact pages.
+<p align="center">
+  An interactive platform for mastering <strong>Data Structures and Algorithms (DSA)</strong>, offering structured tutorials, algorithm visualizations, coding exercises, and real-time practice. Simplifies complex concepts and helps users strengthen problem-solving skills efficiently.
+</p>
 
 ---
 
-## Installation
+<p align="center">
+  <strong>✨ Features</strong>
+</p>
 
-### Prerequisites
-
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (LTS version recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-
-### Steps
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd your-repo-name
-   ```
-
-3. Install dependencies:
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-4. Start the development server:
-   ```bash
-   npm run dev
-   # or
-   yarn run dev
-   ```
+<p align="center">
+- 📝 Structured tutorials for all major DSA topics<br>
+- 🔍 Interactive algorithm visualizations<br>
+- 💻 Real-time coding exercises with instant feedback<br>
+- 📈 Step-by-step guides for Stack, Queue, Linked List, Binary Search, Sorting, and more<br>
+- 🚀 Enhances problem-solving skills efficiently
+</p>
 
 ---
 
-## Project Structure
+<p align="center">
+  <strong>🌐 Live Demo</strong><br>
+  <a href="https://data-visualization-v.vercel.app/">
+    <img src="https://img.shields.io/badge/Visit-Project-blue?style=for-the-badge&logo=vercel" alt="Live Demo">
+  </a>
+</p>
 
-```plaintext
+---
+
+<p align="center">
+  <strong>⚙️ Installation</strong>
+</p>
+
+<p align="center">
+<strong>Prerequisites:</strong><br>
+Node.js (LTS recommended) & npm or yarn
+</p>
+
+<p align="center">
+<strong>Steps:</strong>
+</p>
+
+<p align="center">
+<pre>
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install        # or yarn install
+npm run dev        # or yarn run dev
+</pre>
+</p>
+
+---
+
+<p align="center">
+  <strong>📂 Project Structure</strong>
+</p>
+
+<p align="center">
+<pre>
 src/
 ├── components/
 │   ├── Home/
 │   │   ├── DisplaySection.jsx
 │   │   ├── Jumbotron.jsx
-│   │   ├── SoundSection.jsx
 │   │   └── WebgiViewer.jsx
-│   ├── Stack/
-│   │   └── Stack.jsx
-│   ├── Queue/
-│   │   └── Queue.jsx
-│   ├── linear-search/
-│   │   └── LinearSearch.jsx
-│   ├── binarySearch/
-│   │   └── BinarySearch.jsx
-│   ├── OS/
-│   │   └── OsScheduling.jsx
+│   ├── DSA/
+│   │   ├── Stack.jsx
+│   │   ├── Queue.jsx
+│   │   ├── LinkedList.jsx
+│   │   ├── BinarySearch.jsx
+│   │   └── Sorting.jsx
 │   ├── Ai.jsx
 │   ├── Contact.jsx
-│   └── HourglassLoader.jsx
-├── Homepage.jsx
-├── Dsa/
-│   └── Dsa.jsx
+│   └── Loader.jsx
 ├── App.jsx
 ├── index.js
 └── styles/
-    └── loder.scss
-```
+    └── loader.scss
+</pre>
+</p>
 
 ---
 
-## Usage
+<p align="center">
+  <strong>🖥️ Usage</strong>
+</p>
 
-1. Start the app and navigate through the pages:
-   - Homepage: `/`
-   - DSA Section: `/dsa`
-   - Specific Algorithms:
-     - Stack: `/dsa/stack`
-     - Queue: `/dsa/queue`
-     - Linear Search: `/dsa/linear-search`
-     - Binary Search: `/dsa/binary-search`
-     - OS Scheduling: `/dsa/os-scheduling`
-   - AI Section: `/ai`
-   - Contact Page: `/contact`
-
-2. The hourglass loader will appear on the screen while the app initializes.
-
----
-
-## Scripts
-
-### Development
-
-```bash
-npm run dev
-```
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Run Tests
-
-```bash
-npm test
-```
+<p align="center">
+- 🏠 Homepage: <code>/</code><br>
+- 📚 DSA Section: <code>/dsa</code><br>
+- 🔹 Specific Algorithms:
+  <ul>
+    <li>Stack: <code>/dsa/stack</code></li>
+    <li>Queue: <code>/dsa/queue</code></li>
+    <li>Linked List: <code>/dsa/linked-list</code></li>
+    <li>Binary Search: <code>/dsa/binary-search</code></li>
+    <li>Sorting: <code>/dsa/sorting</code></li>
+  </ul>
+- 🤖 AI Section: <code>/ai</code><br>
+- 📞 Contact Page: <code>/contact</code>
+</p>
 
 ---
 
-## Technologies Used
+<p align="center">
+  <strong>📌 Scripts</strong>
+</p>
 
-- **Frontend**:
-  - React
-  - React Router DOM
-  - SCSS
-- **Loader Animation**: Custom SVG-based animation
-- **Misc**:
-  - `react-animated-cursor`
+<p align="center">
+<pre>
+npm run dev       # Development
+npm run build     # Build for production
+npm test          # Run tests
+</pre>
+</p>
 
 ---
 
-## Author
+<p align="center">
+  <strong>🛠️ Technologies Used</strong>
+</p>
 
-**VARUN B**  
-- [GitHub](https://github.com/ibesuperv)  
-- [Portfolio](https://ibesuperv.vercel.app/)
-```
+<p align="center">
+- ⚛️ React, React Router DOM, SCSS<br>
+- 🔄 Algorithm visualizations with custom components<br>
+- 💻 Real-time coding practice interface<br>
+- ⏳ Custom loader animation
+</p>
 
-Feel free to adjust the sections like "Author" and "License" as per your needs!
+---
+
+<p align="center">
+  <strong>👨‍💻 Author</strong><br>
+  Md Asif Ali<br>
+  <a href="https://github.com/your-username">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://your-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-ff69b4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio">
+  </a>
+</p>
